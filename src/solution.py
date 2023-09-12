@@ -1,3 +1,3 @@
-# Write a function that converts Celsius to Fahrenheit.
-def celsius_to_fahrenheit(_):
-    pass
+celsius = float(input("Enter temperature in celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print('%.2f Celsius is: %0.2f Fahrenheit' %(celsius, fahrenheit))
